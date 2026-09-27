@@ -1,0 +1,26 @@
+{
+  "name": "vote-system-blockchain",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test",
+    "node": "hardhat node",
+    "deploy:local": "hardhat run scripts/deploy.js --network localhost"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ethers": "^4.0.0",
+    "@nomicfoundation/hardhat-ethers-chai-matchers": "^3.0.3",
+    "@nomicfoundation/hardhat-mocha": "^3.0.12",
+    "@nomicfoundation/hardhat-network-helpers": "^3.0.4",
+    "@nomicfoundation/hardhat-toolbox-mocha-ethers": "^3.0.3",
+    "@types/node": "^22.19.15",
+    "chai": "^6.2.2",
+    "ethers": "^6.16.0",
+    "hardhat": "^3.1.11",
+    "mocha": "^11.3.0",
+    "ts-node": "^10.9.2",
+    "typescript": "~5.8.0"
+  }
+}

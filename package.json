@@ -1,0 +1,11 @@
+{
+  "name": "vote-system-blockchain",
+  "private": true,
+  "scripts": {
+    "setup": "npm install && npm install --prefix backend && npm install --prefix frontend && npm --prefix backend run seed",
+    "dev": "concurrently -k -n API,WEB -c cyan,green \"npm --prefix backend run dev\" \"npm --prefix frontend run dev\""
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}

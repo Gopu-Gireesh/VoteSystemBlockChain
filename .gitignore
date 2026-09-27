@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.env
+coverage/
+cache/
+artifacts/
+typechain-types/
+types/
+*.log
+.DS_Store
+blockchain/deployments/localhost.json
